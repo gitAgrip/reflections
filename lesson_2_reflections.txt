@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+git created hitten metadata, it is neccessary to tell git to keep track of the files in that particular folder. 
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It differs becase it does not contain any of the files in the working directory unless we decide otherwise. This is a good function to have because it makes it simple to splite up larger commits into smaller commits. 
