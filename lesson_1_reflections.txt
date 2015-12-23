@@ -1,8 +1,6 @@
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
-
 ----------------------------------------------------------------------------------------------
-
-Diff helps you pinpoint all the lines that dffer betwen versions. 
+Diff helps you pinpoint all the lines that dffer between versions. 
 This comes in handy when trying to identify bugs. It is much easyer to search through a small
 set of changed lines than it is to look through the entire code.   
 
@@ -11,12 +9,27 @@ Diff compares lines. It's a good idea to make the code diff friendly by using sh
 
 <git diff original new>
 <diff -u original new>
-
 ----------------------------------------------------------------------------------------------
 
+How could having easy access to the entire history of a file make
+you a more efficient programmer in the long term?
+----------------------------------------------------------------------------------------------
+Accessable history helps in reducing the time spent on errors and bugs. But the history should 
+contain sutable information, if we have history of each single added or removed charcter this 
+could be too much information. if we only save three states in development of a 10 000 line file.
+This could be to little information. Logical changes can be considered suitable. If you have a 
+history of logical changes you can review the creation step by step, then reuse knowledge from
+am earliyer solution to a new problem or maybe figure out exactly when a particular bug was introduced.
+It's common that development projects consist of many files not just one, changes effect many files. 
+In such cases having the history of all the project files is more helpful than to just have the
+history of one file.
 
-How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
-By reducing the time spent serching through saved copies of earlier versions.
+
+Git can give you the history of your commits (saves), lastest one top.
+<git log> 
+<git log --oneline>
+<git log --oneline --graph>
+----------------------------------------------------------------------------------------------
 
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
 
