@@ -29,6 +29,7 @@ Git can give you the history of your commits (saves), lastest one top.
 <git log> 
 <git log --oneline>
 <git log --oneline --graph>
+<git log --name-only>
 ----------------------------------------------------------------------------------------------
 
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
