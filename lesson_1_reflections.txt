@@ -5,7 +5,7 @@ This comes in handy when trying to identify bugs. It is much easyer to search th
 set of changed lines than it is to look through the entire code.   
 
 Diff can output differences in mutliple formats, by default git diff uses the unified diff format.
-Diff compares lines. It's a good idea to make the code diff friendly by using short lines.
+Since diff compares lines it's a good idea to make the code diff friendly by using short lines.
 
 <git diff original new>
 <diff -u original new>
