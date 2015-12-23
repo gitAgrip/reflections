@@ -1,5 +1,7 @@
 How did viewing a diff between two versions of a file help you see the bug that was introduced?
-Diff pinpointed all the lines that were changed so we diden't hva to look through redundant data.
+Diff helps you pinpoint all the lines that dffer betwen versions. 
+This comes in handy when trying to identify bugs. It is much easyer to search through a small
+set of changed lines than it is to look through the entire code.   
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 By reducing the time spent serching through saved copies of earlier versions.
