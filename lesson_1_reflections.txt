@@ -65,9 +65,8 @@ fails you can go back to the main branch which is unaffected by the experiment.
 ----------------------------------------------------------------------------------------------
 
 Now that you have your workspace set up, what do you want to try using Git for?
-Im going to apply vc to my development projects.
-
 ----------------------------------------------------------------------------------------------
+Projects and collaborations.
 ----------------------------------------------------------------------------------------------
 Useful command's + info
 
