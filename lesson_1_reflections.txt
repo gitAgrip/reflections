@@ -59,6 +59,9 @@ while others, like Google Docs, treat each file separately?
 In programming it's common to have features that span multiple files, when separate saves are
 made on each individual file it becomes more challenging to revert to an older save because
 you need to go through the history of all the individual files to find the right combination.
+
+<git status>
+<git log --stat>
 ----------------------------------------------------------------------------------------------
 How can you use the commands git log and git diff to view the history of files?
 
