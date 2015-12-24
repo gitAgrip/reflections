@@ -53,12 +53,13 @@ discipline.
 <git commit -am "text">
 ----------------------------------------------------------------------------------------------
 
-
-
-Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
-
-Google docs seem to be geared towards rich text editing, and git seem to be geared towards development. When you write code most often a logical change spans multiple files, while text documents in general are independent of other text documents.
-
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
+while others, like Google Docs, treat each file separately?
+----------------------------------------------------------------------------------------------
+In programming it's common to have features that span multiple files, when separate saves are
+made on each individual file it becomes more challenging to revert to an older save because
+you need to go through the history of all the individual files to find the right combination.
+----------------------------------------------------------------------------------------------
 How can you use the commands git log and git diff to view the history of files?
 
 git log gives you a list of commits with id's. You can use git diff to compare the two id's to see identify the changes that where made inbetween.
