@@ -83,12 +83,13 @@ Show the change from the previous version to <id>
 git show <id>
 
 Show the difference between original and new
-git diff <original> <new> 
+For id you only need to provide enough digits to uniqly identify a commit
+git diff <original id> <new id> 
 
 Show difference between working directory and staging 
 git diff
 
-show difference between the current state of the repository and staging   
+show difference between the previoues state of the repository and staging   
 gitt diff --staged
 
 
