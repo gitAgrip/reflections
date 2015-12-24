@@ -7,8 +7,6 @@ set of changed lines than it is to look through the entire code.
 Diff can output differences in mutliple formats, by default git diff uses the unified diff format.
 Since diff compares lines it's a good idea to make the code diff friendly by using short lines.
 
-<git diff original new>
-<diff -u original new>
 ----------------------------------------------------------------------------------------------
 
 How could having easy access to the entire history of a file make
@@ -25,11 +23,6 @@ In such cases having the history of all the project files is more helpful than t
 history of one file.
 
 
-Git can give you the history of your commits (saves), lastest one top.
-<git log> 
-<git log --oneline>
-<git log --oneline --graph>
-<git log --name-only>
 ----------------------------------------------------------------------------------------------
 
 What do you think are the pros and cons of manually choosing when to create a commit, 
@@ -47,10 +40,6 @@ at least you have som data. Manual saving like in git gives you
 the freedom to decide suitable increments in your development, but the manual approch requires
 discipline. 
 
-<git add>
-<git commit>
-<git commit -m "text">
-<git commit -am "text">
 ----------------------------------------------------------------------------------------------
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, 
@@ -60,8 +49,6 @@ In programming it's common to have features that span multiple files, when separ
 made on each individual file it becomes more challenging to revert to an older save because
 you need to go through the history of all the individual files to find the right combination.
 
-<git status>
-<git log --stat>
 ----------------------------------------------------------------------------------------------
 
 How can you use the commands git log and git diff to view the history of files?
@@ -75,3 +62,76 @@ It could make me more confident knowing its possible to go back. And knowing tha
 
 Now that you have your workspace set up, what do you want to try using Git for?
 Im going to apply vc to my development projects.
+
+----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+Useful command's + info
+
+HEAD is what git calls the commit you are currently working on
+
+Clone a remote repository from an url by default the git clone creates 
+a new folder in the current directory where you run the command. Directory name will be
+the same as the name of the repository you are cloning
+git clone <url>
+
+Show the change from the previous version to <id>
+git show <id>
+
+Show the difference between original and new
+git diff <original> <new> 
+
+Show difference between working directory and staging 
+git diff
+
+show difference between the current state of the repository and staging   
+gitt diff --staged
+
+
+Show the difference between original and new with unified diff format
+Unified diff format is default for git diff not for diff. 
+diff -u <original> <new>
+
+Add a file to staging area
+<git add>
+
+Commit changes added to staging area
+git commit
+git commit -m "text"
+
+Add and commit, give a short description without editor
+git commit -am "text"
+
+Git can give you the history of your commits (saves), lastest one top.
+git log> - most resent change on top
+
+Show status of working directory, staging and repository
+git status
+
+Show log add information on what files where changed in each commit
+git log --stat
+
+Log with online per commit
+git log --oneline 
+
+Nice to see if you have branches that are reachable, gives a graphical overview
+one branches and commits
+git log --oneline --graph
+
+Log with modified files names
+git log --name-only
+
+Set all you files to the state held in the commit with <id>
+git checkout <id> 
+
+Create a new branch with the label <name> and checkit out at once
+git checkout -b <name>
+
+Create a new branch with <name>
+git branch <name>
+
+See all the local branches, and what branch you are currently working on
+git branch
+
+Show different colors for removed and added lines, by providing the global keyword
+it tells git that this setting should apply across all projects
+git config --global color.ui auto 
