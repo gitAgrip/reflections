@@ -138,4 +138,12 @@ git branch
 
 Show different colors for removed and added lines, by providing the global keyword
 it tells git that this setting should apply across all projects
-git config --global color.ui auto 
+git config --global color.ui auto
+
+Tell git what editor to trigger when writing is required
+git config --global core.editor "full path of the executable/binary"
+
+
+Unknown
+git config --global push.default upstream
+git config --global merg.conflictstyle diff3
