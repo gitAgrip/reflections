@@ -57,8 +57,12 @@ Git log gives you a list of commits with id's. You can use git diff to compare t
 ----------------------------------------------------------------------------------------------
 
 How might using version control make you more confident to make changes that could break something?
-
-It could make me more confident knowing its possible to go back. And knowing that i can see the differences to identify what code that broke the functionality.
+----------------------------------------------------------------------------------------------
+Git provides the abillity to jump between all the commited states. The diff functionallity helps
+to quicly identify changes between two given versions. These are helpful tools. Git has another
+function where you can create an experimental branch for trying out som bold code, if the experiment
+fails you can go back to the main branch which is unaffected by the experiment. 
+----------------------------------------------------------------------------------------------
 
 Now that you have your workspace set up, what do you want to try using Git for?
 Im going to apply vc to my development projects.
