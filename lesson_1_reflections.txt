@@ -63,10 +63,11 @@ you need to go through the history of all the individual files to find the right
 <git status>
 <git log --stat>
 ----------------------------------------------------------------------------------------------
+
 How can you use the commands git log and git diff to view the history of files?
-
-git log gives you a list of commits with id's. You can use git diff to compare the two id's to see identify the changes that where made inbetween.
-
+----------------------------------------------------------------------------------------------
+Git log gives you a list of commits with id's. You can use git diff to compare two version<Id's>.
+----------------------------------------------------------------------------------------------
 
 How might using version control make you more confident to make changes that could break something?
 
