@@ -38,8 +38,6 @@ Auto cons:
 
 
 ----------------------------------------------------------------------------------------------
-Projects and collaborations.
-----------------------------------------------------------------------------------------------
 Useful command's + info
 
 Initialize a directory for version control. This command creates a hidden folder .git that
