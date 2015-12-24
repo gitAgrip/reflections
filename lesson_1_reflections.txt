@@ -31,10 +31,12 @@ like you do in Git, vs having versions automatically saved, like Google Docs doe
 Automaticall saves can be made at regular intervals, each save would not nessecarly contain
 any difference to the previous save because you migh think
 a lot instead of writing code so you could end up with a lot of surpuflouis data. Another problem
-could be if a save is made at a time where you are writing code. If you were to return to the unfinished 
-version for some reason your code will not run, and then you need to recreate the missing parts 
-to get it to work. You could have the automatic saves being triggered by a certain nymber of lines/characters
-or maybe when there is a long break. If a certain number of lines is require to make a save you would eliminate the problem of redundant saves when no changes have been committed, but the other problems still apply. 
+could be if a save is made at a time where you are writing code. If you were to return to the 
+unfinished version for some reason your code will not run, and then you need to recreate the 
+missing parts to get it to work. You could have the automatic saves being triggered by a certain 
+nymber of lines/characters or maybe when there is a long break. 
+If a certain number of lines is require to make a save you would eliminate the problem of redundant 
+saves when no changes have been committed, but the other problems still apply. 
 Automatic saving might be good if you never remeber to save, 
 at least you have som data. Manual saving like in git gives you 
 the freedom to decide suitable increments in your development, but the manual approch requires
