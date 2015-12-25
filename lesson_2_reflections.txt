@@ -89,3 +89,9 @@ git checkout master^^^ - three steps down
 
 Visualize the branch structure of two branches
 git log --oneline --graph <branch1> <branch2>
+
+Merge two commits into a new commit, the new commit will have references to both commits, but only
+one off the labels will advance. The other lable is usually deleted. If there are no conflics meaning 
+that the same line has been edited in both commits, then git performeres auto merge. Else git opens
+the core editor so you can sort out how the final commit should look like.
+git merge <branch1> <branch2>
