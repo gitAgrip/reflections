@@ -33,8 +33,12 @@ different versions.
 ----------------------------------------------------------------------------------------------
 
 How do the diagrams help you visualize the branch structure?
-
-Clarifying reachable and unrecable commits in each branch. 
+----------------------------------------------------------------------------------------------
+The branch structure of the repository is like a tree were all the children knows there parent.
+When looking at a diagram of the branches we can tell where different versions branched of.
+Diagrams made by Git do not displayed unlabled unreachable commits. In order to have the displayed
+you can go to the tip of the commit and label or tag it.
+----------------------------------------------------------------------------------------------
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
