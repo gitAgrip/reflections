@@ -1,8 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 ----------------------------------------------------------------------------------------------
-At the time of initialization Git creates a hidden metadata folder. At first there are no commits
-but git instantly keeps track of all the files in the directory. If there are files present in the
-directory at the time of initialization they are treated as new unstaged and uncommitted
+At the time of initialization Git creates a hidden metadata folder.If there are files present in 
+the directory at the time of initialization they are treated as new unstaged and uncommitted
 changes. 
 ----------------------------------------------------------------------------------------------
 
