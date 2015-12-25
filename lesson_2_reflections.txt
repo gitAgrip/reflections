@@ -16,7 +16,12 @@ Only the contents of the staging area will be committed to the repository.
 
 How can you use the staging area to make sure you have one commit per logical change?
 ----------------------------------------------------------------------------------------------
-You can partially add pieces instead of having to save all the changes at once. 
+By being selective when adding files to staging and then committing only a bundle of changes 
+that make up a logical change. Timing is important still, if you add many changes to one file 
+since your last commit its hard to separate the changes from eachother by using the staging area.
+In a different situation where you have created multiple changes but they are alle separated
+in different files, the staging area can provide a way of fine graining the changes into multiple
+smaller commits.
 ----------------------------------------------------------------------------------------------
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
