@@ -54,7 +54,7 @@ Git automatic merge can help you save time when there are no conflicts between t
 merging. Since Git autamatic merging only is activated when there are no conflicts it seems like
 a safe alternative to always doing merges manually. When manually merging everytime you have
 full control of whats going on but you could also increase the risk of introducing errors.
-Some times its required to make manuall merges but then git automatic merge also force you
+Some times its required to make manual merges but then git automatic merge also force you
 in to manuall mode in such cases. Always doing merges manually apears to be unessesary. 
 ----------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
