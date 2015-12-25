@@ -1,6 +1,10 @@
 What happens when you initialize a repository? Why do you need to do it?
-
-git created hitten metadata, it is neccessary to tell git to keep track of the files in that particular folder. 
+----------------------------------------------------------------------------------------------
+At the time of initialization Git creates a hidden metadata folder. At first there are no commits
+but git instantly keeps track of all the files in the directory. If there are files present in the
+directory at the time of initialization they are treated as new unstaged and uncommitted
+changes. 
+----------------------------------------------------------------------------------------------
 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
