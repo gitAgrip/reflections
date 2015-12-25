@@ -13,4 +13,6 @@ Add remote, by convention we use the name origin if we have one remote
 This name will be used locally to refere to the remote repository. 
 git remote add <name> <url>
 
-
+Send your changes to the remote repository spesified by the origin reference.
+Tell git what branch you want to push as second parameter.
+git push origin master
