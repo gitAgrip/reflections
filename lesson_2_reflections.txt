@@ -106,3 +106,7 @@ Delete a branch label, if you delete a branch label of an unmerged commit so it 
 any reference, then you risk that the GIt garbage collector comes and deletes it, this goes for 
 all commits that are not reachable from a tag or a label i think.
 git branch -d <label>
+
+Track you movments along different commits, useful command for recovering the id off an unreachable
+commit where the label is deleted.
+Git reflog
