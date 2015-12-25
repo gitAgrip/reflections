@@ -53,3 +53,7 @@ Initialize a directory for version control. This command creates a hidden folder
 contains metadata. You will need to tell git what files to keep track of even if you have files
 in the directory at the time of initialization.
 git init
+
+Reset the state of a modified unstaged file to the state from the previous commit
+(Discard changes in the working directory)
+git checkout "filename"
