@@ -95,3 +95,11 @@ one off the labels will advance. The other lable is usually deleted. If there ar
 that the same line has been edited in both commits, then git performeres auto merge. Else git opens
 the core editor so you can sort out how the final commit should look like.
 git merge <branch1> <branch2>
+
+The git diff command can end up showing much more then you think should be displayed when
+running diff between a commit and what seems to be the parent from the log. After merges there are
+more commits in the log and they do not necessarly have a parent children relationship even
+if they are listest in such manner. This is because git log commits are sorted by date. Here is a 
+command that will show what changes that were introduced in a commit with regards to its parent.
+The id is the children id because you do not know the parent id.
+git show <id>
