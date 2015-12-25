@@ -57,3 +57,7 @@ git init
 Reset the state of a modified unstaged file to the state from the previous commit
 (Discard changes in the working directory)
 git checkout "filename"
+
+Discards either changes in the working directory or the staging area. Be very careful
+when using this command beacuse the changes you discard are not committed.
+git reset --hard
