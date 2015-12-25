@@ -83,4 +83,5 @@ you will move along.
 git checkout master^ - one step down
 git checkout master^^^ - three steps down
 
-
+Visualize the branch structure of two branches
+git log --oneline --graph <branch1> <branch2>
