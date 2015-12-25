@@ -6,10 +6,10 @@ changes. Git needs to know what directory to control. It would be overwhelming i
 every directory in the operating system. 
 ----------------------------------------------------------------------------------------------
 
-
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-
-It differs becase it only contain changes. This is a good function to have because it makes it simple to splite up larger commits into smaller commits. 
+----------------------------------------------------------------------------------------------
+The Staging area is an intermediate area that allow you to specify the changes to be committed. This is a good function to have because it makes it simple to splite up larger commits into smaller commits. 
+----------------------------------------------------------------------------------------------
 
 How can you use the staging area to make sure you have one commit per logical change?
 You can partially add pieces instead of having to save all the changes at once. 
