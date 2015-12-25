@@ -41,8 +41,12 @@ you can go to the tip of the commit and label or tag it.
 ----------------------------------------------------------------------------------------------
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-
-A new commit is created with the former commit tips as parents. When you run git log, the commits of both branches will be shown sorted by date. Common practice is to checkout one of the branches to be merged and then branch the other into the current. Diagram is helpful in showing where branches where created. This is helpful when using diff.
+----------------------------------------------------------------------------------------------
+A new commit is created with the former commit tips as parents. 
+When you run git log, the commits of both branches will be shown sorted by date. 
+Common practice is to checkout one of the branches to be merged and then branch the other into the current. 
+Diagram is helpful in showing where branches where created. This is helpful when using diff.
+----------------------------------------------------------------------------------------------
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
