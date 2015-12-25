@@ -4,9 +4,13 @@ When would you want to create a remote repository rather than keeping all your w
 ----------------------------------------------------------------------------------------------
 Useful commands and info
 
-See all the current remotes
+See all the current remotes, use verbose switch to see the 
+urls for fetching and pushing data
 git remote 
+git remote -v
 
 Add remote, by convention we use the name origin if we have one remote
 This name will be used locally to refere to the remote repository. 
 git remote add <name> <url>
+
+
