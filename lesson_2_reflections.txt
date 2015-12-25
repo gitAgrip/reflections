@@ -61,3 +61,17 @@ git checkout "filename"
 Discards either changes in the working directory or the staging area. Be very careful
 when using this command beacuse the changes you discard are not committed.
 git reset --hard
+
+
+You can checkout the branch label to get to the tip of your branch. When HEAD is not
+referencing your branch labeled commit on you current branch you are in detached HEAD state.
+git checkout master
+
+You add ^ signs to denote how many steps you would like to move down from the branch tip.
+Be aware that you might not end up in the same place where you expect when looking at the log.
+This might be due to merges you have made, use git --oneline --graph at the tip to see the path
+you will move along.
+git checkout master^ - one step down
+git checkout master^^^ - three steps down
+
+
