@@ -10,6 +10,18 @@ Say you are working on an experimental change appart from the master branch and 
 someone makes an update to the remote repository master branch, then youre experimental branch
 would be merged with the master unless changes were routet to the appropriate repsitory.
 ----------------------------------------------------------------------------------------------
+
+Describe the differences between forks, clones, and branches. 
+When would you use one instead of another?
+----------------------------------------------------------------------------------------------
+In the context of git Fork is available only on Github, when you don't have any permissions to
+change a remote repository belonging to someone else github lets you fork there repository
+into you own git account if the repository is public. Github fork also takes care off credits
+to the owner off the repository from where the fork was made. Clones can be used to copy a
+repository from any remote source it could also be a local source. The result of performing
+a clone is a local repository corresponding to the cloned one. Branches could exist both on
+github and locally. A branch is more of a way to label commits with common ancesters.
+----------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
 Useful commands and info
 
