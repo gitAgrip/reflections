@@ -51,4 +51,9 @@ git push origin master
 
 Update the current branch on in your local repository with the difference 
 from the master branch in remote repository labeled origin.
+Pull is the same as running git fetch <remote> followd by git merge master <remote>
 git pull origin master
+
+Get the changes made on in the remote repository insert the into a branch labled
+by the remote branch name ex origin/master
+git fetch
