@@ -32,6 +32,16 @@ same commit until another pull/push or fetch is performed. Having a remote refer
 way to determin either local or remote differences like when you have a branch and you know the
 commit befor the branch was created.
 ----------------------------------------------------------------------------------------------
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+----------------------------------------------------------------------------------------------
+Github provides a funciton called "pull request", this funtion can be used to suggest changes.
+Collaborators can make comments on the sugggested. Github provides means to interact and notice
+collaborators of pull requests. I assume that all of the collaborators get the pull request,
+if so it can be a lot off different opinions if there is a large group off people involved.
+If the pull request only is sent to the "owner", then the owner could end up doing a lot off
+administrative work, but on the positive side he would maybe have more control.
+----------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
 Useful commands and info
 
