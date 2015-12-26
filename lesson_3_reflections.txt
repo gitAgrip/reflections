@@ -28,8 +28,8 @@ What is the benefit of having a copy of the last known state of the remote store
 The local last known remote state lets you see the difference in commits between your local rep 
 and the remote rep at the time the remote state was updated. Each time you make a local commit
 you only update the branch label (EX. master), The remote/master label will still reference the
-same commit until another pull/push or fetch is performed. Having a remote reference provied a
-way of determin either local or remote differences like when you have a branch and you know the
+same commit until another pull/push or fetch is performed. Having a remote reference provides a
+way to determin either local or remote differences like when you have a branch and you know the
 commit befor the branch was created.
 ----------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
