@@ -20,5 +20,5 @@ git push origin master
 
 
 Update the current branch on in your local repository with the difference 
-from remote repository labeled origin.
+from the master branch in remote repository labeled origin.
 git pull origin master
