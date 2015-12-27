@@ -42,6 +42,14 @@ if so it can be a lot off different opinions if there is a large group off peopl
 If the pull request only is sent to the "owner", then the owner could end up doing a lot off
 administrative work, but on the positive side he would maybe have more control.
 ----------------------------------------------------------------------------------------------
+
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+----------------------------------------------------------------------------------------------
+Before proposing a change through a pull request you would want to merge changes into a different
+branch than the main branch to let other collaborators have a look at the result before the 
+merge is performed into the main branch. This can happen if people make conflicting changes.
+----------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
 Useful commands and info
 
